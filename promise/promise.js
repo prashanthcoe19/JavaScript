@@ -1,3 +1,6 @@
+// promises are used to overcome call back hell
+//(resolve,reject) are function and are built into promise api
+
 // state of promise
 /* 1. pending state
     2. onfulfilled state
