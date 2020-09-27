@@ -8,6 +8,7 @@
 // however Admin will not have access to User's functions (login() and logout())
 // so what we need to do is copy User prototype to admin prototype
 // Admin.prototype = Object.create(User.prototype)
+
 function User(username, email) {
   this.username = username;
   this.email = email;

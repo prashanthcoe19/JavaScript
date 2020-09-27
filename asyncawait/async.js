@@ -4,8 +4,7 @@
 // Async functions always returns promise. If return value of an async function is not a promise,
 // it will be implicitly wrapped in a promise.
 // asycn function can contain zero to more await expression.
-// await expression suspend progress and resume only when awaited promise is either fulfilled or rejected
-// to catch error we can use try catch block
+// await makes JavaScript wait unitl that promise settles and returns its result
 
 async function example() {
   let promise = new Promise((resolve, reject) => {
